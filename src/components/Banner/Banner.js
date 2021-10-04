@@ -6,6 +6,7 @@ import "./Banner.css";
 const Banner = () => {
   return (
     <section>
+      {/* Banner Section */}
       <Container>
         <Row>
           <Col md={6} className="d-flex align-items-center">
@@ -15,9 +16,9 @@ const Banner = () => {
                 <span className="text-green">Online Courses</span>
               </h2>
               <p className="text-secondary mb-4">
-                We are providing best quality online courses in various fields
-                like - Programming, Photography, Music and so on. By learning
-                our courses, you can show your creativity to the world.
+                We are providing the best quality online courses in various
+                fields like - Programming, Photography, Music, and so on. By
+                learning our courses, you can show your creativity to the world.
               </p>
               <NavLink
                 to="/services"

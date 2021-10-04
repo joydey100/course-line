@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 
 const useService = () => {
-  // state declare
+  // state declare for Service or courses
   const [services, setServices] = useState([]);
 
   //   load Data
